@@ -1,0 +1,81 @@
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+  background-color: white;
+}
+
+.header {
+  background: #ededed;
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  margin-left: 8px;
+}
+.main-title {
+  color: #777777;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.user-button {
+  margin-right: 8px;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.profile .photo {
+  width: 20%;
+  align-self: flex-start;
+}
+.profile .record {
+  width: 50%;
+}
+.title {
+  color: #444444;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 1rem;
+}
+.listing .table-listing {
+  width: 75%;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+.table-listing .ant-table-column-title {
+  text-align: center;
+}
+
+.link {
+  color: #0011bb;
+}
+.link:visited {
+  color: #6600cc;
+}
+.title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 1rem 0 1rem 0;
+}
+.field .label {
+  display: inline-block;
+  width: 30%;
+}
+.field .value {
+  display: inline-block;
+  width: 50%;
+}
+.field .label {
+  font-weight: bold;
+  margin-right: 1rem;
+  text-align: right;
+  vertical-align: top;
+}
